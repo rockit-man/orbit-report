@@ -1,3 +1,5 @@
+
+
 export class Satellite {
     name: string;
     orbitType: string;

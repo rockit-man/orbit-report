@@ -9,7 +9,7 @@ import { Satellite } from './satellite';
 
 export class AppComponent {
   title: string = 'orbit-report';
-  sourceList: Satellite[];
+  sourceList: Satellite[] = [];
 
   constructor() {
     this.sourceList = [
